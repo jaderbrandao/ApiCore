@@ -26,6 +26,6 @@
   </metadata>
   <files>
     <file src="C:\Projetos\bibliotecas\apicore\APICore\bin\Release\netcoreapp3.1\APICore.dll" target="lib\netcoreapp3.1\APICore.dll" />
-    <file src="C:\Projetos\bibliotecas\apicore\License.txt" target="License.txt" />
+    <file src="C:\Projetos\bibliotecas\apicore\APICore\License.txt" target="License.txt" />
   </files>
 </package>
