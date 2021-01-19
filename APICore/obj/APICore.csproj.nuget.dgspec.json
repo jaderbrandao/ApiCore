@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\APICore\\APICore\\APICore.csproj": {}
+    "C:\\Projetos\\bibliotecas\\apicore\\APICore\\APICore.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\APICore\\APICore\\APICore.csproj": {
-      "version": "1.0.0",
+    "C:\\Projetos\\bibliotecas\\apicore\\APICore\\APICore.csproj": {
+      "version": "1.1.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\APICore\\APICore\\APICore.csproj",
+        "projectUniqueName": "C:\\Projetos\\bibliotecas\\apicore\\APICore\\APICore.csproj",
         "projectName": "APICore",
-        "projectPath": "C:\\Projetos\\APICore\\APICore\\APICore.csproj",
+        "projectPath": "C:\\Projetos\\bibliotecas\\apicore\\APICore\\APICore.csproj",
         "packagesPath": "C:\\Users\\Triscal\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\APICore\\APICore\\obj\\",
+        "outputPath": "C:\\Projetos\\bibliotecas\\apicore\\APICore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Triscal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,7 @@
               "target": "Package",
               "version": "[4.2.0, )"
             },
-            "Swashbuckle.AspNetCore.SwaggerGen": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
             }

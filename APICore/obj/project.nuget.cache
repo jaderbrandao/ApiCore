@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "8DC9J4X9EtfRQBpJ38J+WrsiJraEk7aUCjVKWyzml/Ji90NrreHE5uRLepbXr68Z0qkGRhou8ci6+dPb3yu7nQ==",
+  "dgSpecHash": "MJl+BWWyap7pbfXIApKMcU/0nTpHpGbfyXYxkenTcwZVJvpJZYEUcgcAmIKT44UFRsjDamz33oGI6z45hq1jwg==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\APICore\\APICore\\APICore.csproj",
+  "projectFilePath": "C:\\Projetos\\bibliotecas\\apicore\\APICore\\APICore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Triscal\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.2.0\\microsoft.aspnetcore.mvc.versioning.4.2.0.nupkg.sha512",
     "C:\\Users\\Triscal\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\4.2.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.4.2.0.nupkg.sha512",
+    "C:\\Users\\Triscal\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Triscal\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Triscal\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Triscal\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\Triscal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512"
+    "C:\\Users\\Triscal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Triscal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }

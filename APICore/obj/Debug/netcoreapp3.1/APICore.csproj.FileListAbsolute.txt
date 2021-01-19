@@ -3,3 +3,8 @@ C:\Projetos\APICore\APICore\bin\Debug\netcoreapp3.1\APICore.dll
 C:\Projetos\APICore\APICore\obj\Debug\netcoreapp3.1\APICore.csprojAssemblyReference.cache
 C:\Projetos\APICore\APICore\obj\Debug\netcoreapp3.1\APICore.AssemblyInfoInputs.cache
 C:\Projetos\APICore\APICore\obj\Debug\netcoreapp3.1\APICore.AssemblyInfo.cs
+C:\Projetos\bibliotecas\apicore\APICore\bin\Debug\netcoreapp3.1\APICore.deps.json
+C:\Projetos\bibliotecas\apicore\APICore\bin\Debug\netcoreapp3.1\APICore.dll
+C:\Projetos\bibliotecas\apicore\APICore\obj\Debug\netcoreapp3.1\APICore.csprojAssemblyReference.cache
+C:\Projetos\bibliotecas\apicore\APICore\obj\Debug\netcoreapp3.1\APICore.AssemblyInfoInputs.cache
+C:\Projetos\bibliotecas\apicore\APICore\obj\Debug\netcoreapp3.1\APICore.AssemblyInfo.cs
