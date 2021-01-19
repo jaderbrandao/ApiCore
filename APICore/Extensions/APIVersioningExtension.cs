@@ -38,10 +38,6 @@ namespace APICore.Extensions
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
             services.AddSwaggerGen(options =>
             {
-                var provider = services.BuildServiceProvider().GetRequiredService<IApiVersionDescriptionProvider>();
-                foreach (var description in provider.ApiVersionDescriptions)
-                    options.SwaggerDoc(description.GroupName, new OpenApiInfo() { Title = $"{applicationName} {description.ApiVersion}", Version = description.ApiVersion.ToString() });
-
                 options.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
 
                 var fileXml = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";

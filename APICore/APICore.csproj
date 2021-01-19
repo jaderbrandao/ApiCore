@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>1.1.1</Version>
-    <PackageReleaseNotes>Nesta versão 1.1.1 foi implementado a injeção de dependência da IApiVersionDescriptionProvider.</PackageReleaseNotes>
+    <Version>1.1.3</Version>
+    <PackageReleaseNotes>Nesta versão 1.1.2 foi corrigido a injeção de dependência da IApiVersionDescriptionProvider.</PackageReleaseNotes>
     <Authors>JaderBrandao</Authors>
     <Description>Biblioteca para projetos de API's, contendo Middlewares e classes para documentação das API's através do framework swagger.</Description>
     <Copyright>JaderBrandao</Copyright>
