@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.ApiExplorer;
+﻿using APICore.Settings;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
@@ -12,8 +13,13 @@ namespace APICore.Swagger
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
         private readonly IApiVersionDescriptionProvider provider;
+        private readonly ApiSettings apiSettings;
 
-        public ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider) => this.provider = provider;
+        public ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider, ApiSettings apiSettings)
+        {
+            this.provider = provider;
+            this.apiSettings = apiSettings;
+        }
 
         public void Configure(SwaggerGenOptions options)
         {
@@ -23,18 +29,18 @@ namespace APICore.Swagger
             }
         }
 
-        private static OpenApiInfo CreateInfoForApiVersion(ApiVersionDescription description)
+        private OpenApiInfo CreateInfoForApiVersion(ApiVersionDescription description)
         {
             var info = new OpenApiInfo()
             {
-                Title = "Versioning API",
+                Title = this.apiSettings.Title,
                 Version = description.ApiVersion.ToString(),
-                Description = "Versioning API"
+                Description = this.apiSettings.Description
             };
 
             if (description.IsDeprecated)
             {
-                info.Description += " This API version has been deprecated.";
+                info.Description += " A versão desta API está desatualizada.";
             }
 
             return info;

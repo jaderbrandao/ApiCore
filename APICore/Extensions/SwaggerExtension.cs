@@ -1,7 +1,9 @@
-﻿using APICore.Swagger;
+﻿using APICore.Settings;
+using APICore.Swagger;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
@@ -14,7 +16,7 @@ namespace APICore.Extensions
 {
     public static class SwaggerExtension
     {
-        public static void AddSwaggerConfiguration(this IServiceCollection services, string applicationName)
+        public static void AddSwaggerConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddSwaggerGen(s =>
             {
@@ -39,6 +41,10 @@ namespace APICore.Extensions
                 // can also be used to control the format of the API version in route templates
                 options.SubstituteApiVersionInUrl = true;
             });
+
+            var apiSettings = new ApiSettings();
+            configuration.Bind("ApiSettings", apiSettings);
+            services.AddSingleton(apiSettings);
 
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
             services.AddSwaggerGen(options =>

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "APICore/1.1.4": {
+      "APICore/1.1.6": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "4.2.0",
           "Swashbuckle.AspNetCore": "5.6.3"
@@ -84,7 +84,7 @@
     }
   },
   "libraries": {
-    "APICore/1.1.4": {
+    "APICore/1.1.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

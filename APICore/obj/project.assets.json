@@ -253,7 +253,7 @@
     "C:\\Users\\Triscal\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.1.4",
+    "version": "1.1.6",
     "restore": {
       "projectUniqueName": "C:\\Projetos\\bibliotecas\\apicore\\APICore\\APICore.csproj",
       "projectName": "APICore",
