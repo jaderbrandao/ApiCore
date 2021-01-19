@@ -6,3 +6,4 @@ C:\Projetos\bibliotecas\apicore\APICore\obj\Release\netcoreapp3.1\APICore.Assemb
 C:\Projetos\bibliotecas\apicore\APICore\obj\Release\netcoreapp3.1\APICore.csproj.CoreCompileInputs.cache
 C:\Projetos\bibliotecas\apicore\APICore\obj\Release\netcoreapp3.1\APICore.dll
 C:\Projetos\bibliotecas\apicore\APICore\obj\Release\netcoreapp3.1\APICore.pdb
+C:\Projetos\bibliotecas\apicore\APICore\obj\Release\netcoreapp3.1\APICore.csprojAssemblyReference.cache
