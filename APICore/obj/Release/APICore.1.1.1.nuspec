@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>APICore</id>
+    <version>1.1.1</version>
+    <authors>JaderBrandao</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">License.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://jaderbrandao.com.br/</projectUrl>
+    <description>Biblioteca para projetos de API's, contendo Middlewares e classes para documentação das API's através do framework swagger.</description>
+    <releaseNotes>Nesta versão 1.1.1 foi implementado a injeção de dependência da IApiVersionDescriptionProvider.</releaseNotes>
+    <copyright>JaderBrandao</copyright>
+    <repository url="https://github.com/jaderbrandao/apicore" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="5.6.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Projetos\bibliotecas\apicore\APICore\bin\Release\netcoreapp3.1\APICore.dll" target="lib\netcoreapp3.1\APICore.dll" />
+    <file src="C:\Projetos\bibliotecas\apicore\APICore\License.txt" target="License.txt" />
+  </files>
+</package>

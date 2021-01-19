@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>1.1.0</Version>
-    <PackageReleaseNotes>Nesta versão 1.1.0 foi criado as extensões para adicionar e utilizar o swagger, como também o controle de versionamentos das API's.</PackageReleaseNotes>
+    <Version>1.1.1</Version>
+    <PackageReleaseNotes>Nesta versão 1.1.1 foi implementado a injeção de dependência da IApiVersionDescriptionProvider.</PackageReleaseNotes>
     <Authors>JaderBrandao</Authors>
     <Description>Biblioteca para projetos de API's, contendo Middlewares e classes para documentação das API's através do framework swagger.</Description>
     <Copyright>JaderBrandao</Copyright>
