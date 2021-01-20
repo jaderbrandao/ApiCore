@@ -26,7 +26,7 @@ To compile it by yourself, you can git clone, open the project and hit the compi
  First, you need to understand C# language, packages and API Web Application.
  
  Then, after you get the APICore package, edit your Startup.cs:
-```
+```csharp
 using APICore.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -91,13 +91,13 @@ namespace Swagger_Versioning
 ```
 
 Finally, in your Controller, make a directory like V1;V2... and you can use the same Controller name and different namespaces, and add these atributes :
-```
+```csharp
  [ApiController]
  [ApiVersion("1.0", Deprecated =true)]
  [Route("v{version:apiVersion}")]
 ```
 In your actions, you can set the verb and Routes should be the same in V1;V2...
-```
+```csharp
  [HttpGet]
  [Route("weatherforecast-list")]
 ```
