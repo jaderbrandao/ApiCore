@@ -6,11 +6,11 @@ ApiCore is the most complete library for the API projects. It implements API Ver
 
 In .NET Core:
 ```bash
-dotnet add package APICore --version 1.1.7
+dotnet add package APICore --version 2.0.0
 ```
 If using legacy .NET Framework in Visual Studio
 ```bash
-Install-Package APICore -Version 1.1.7
+Install-Package APICore -Version 2.0.0
 ```
 You can also just use the `Manage NuGet Package` window on your project in Visual Studio.
 
@@ -104,6 +104,9 @@ In your actions, you can set the verb and Routes should be the same in V1;V2...
  [HttpGet]
  [Route("weatherforecast-list")]
 ```
+
+For Bad requests, the version 2.0.0 consider DataAnnotations, for example [Required] from body. You can customize messages for this in appsettings.json, see the ApiSettings.cs.
+The response ignore null values and use CamelCase.
 
 Please, use github issues for questions or feedback. For confidential requests or specific demands, contact us on [JaderBrandao support](mailto:contato@jaderbrandao.com.br "contato@jaderbrandao.com.br").
 
