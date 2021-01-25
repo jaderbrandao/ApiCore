@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>1.1.6</Version>
-    <PackageReleaseNotes>Nesta versão 1.1.5 foi ajustada a classe ApsSettings para obter o nome da aplicação por projeto que injetar o pacote APICore.</PackageReleaseNotes>
+    <Version>2.0.0</Version>
+    <PackageReleaseNotes>Nesta versão 2.0.0 Foi criada a extensao para adicionar configurações da biclioteca ApiCore, tais como configuração do mvc, resposta camel case, ignorar valores nulos e tratamento para bad request.</PackageReleaseNotes>
     <Authors>JaderBrandao</Authors>
-    <Description>Biblioteca para projetos de API's, contendo Middlewares e classes para documentação das API's através do framework swagger.</Description>
+    <Description>Library for APIs projects containing Middlewares and API's documentation through the Swagger framework.</Description>
     <Copyright>JaderBrandao</Copyright>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <RepositoryUrl>https://github.com/jaderbrandao/apicore</RepositoryUrl>
-    <PackageProjectUrl>https://jaderbrandao.com.br</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/JaderBrandao/ApiCore</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

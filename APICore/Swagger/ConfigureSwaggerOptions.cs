@@ -4,9 +4,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace APICore.Swagger
 {
@@ -40,7 +37,7 @@ namespace APICore.Swagger
 
             if (description.IsDeprecated)
             {
-                info.Description += " A versão desta API está desatualizada.";
+                info.Description += $" {this.apiSettings.ApiDeprecated}";
             }
 
             return info;

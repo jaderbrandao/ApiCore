@@ -16,7 +16,7 @@ namespace APICore.Extensions
 {
     public static class SwaggerExtension
     {
-        public static void AddSwaggerConfiguration(this IServiceCollection services, IConfiguration configuration)
+        public static void AddSwaggerConfiguration(this IServiceCollection services)
         {
             services.AddSwaggerGen(s =>
             {
@@ -42,9 +42,7 @@ namespace APICore.Extensions
                 options.SubstituteApiVersionInUrl = true;
             });
 
-            var apiSettings = new ApiSettings();
-            configuration.Bind("ApiSettings", apiSettings);
-            services.AddSingleton(apiSettings);
+            
 
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
             services.AddSwaggerGen(options =>
@@ -57,6 +55,8 @@ namespace APICore.Extensions
                 options.CustomSchemaIds(x => x.Name);
                 options.DescribeAllParametersInCamelCase();
             });
+
+            
         }
 
         public static void UseSwaggerConfiguration(this IApplicationBuilder app, IApiVersionDescriptionProvider provider)
