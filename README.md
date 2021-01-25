@@ -85,9 +85,11 @@ namespace Swagger_Versioning
 
  Add in your appsettings.json, a Title and a Description for your API documentation:
 ```
-"ApiSettings": {
-    "Title": "API with APICore 1.1.5",
-    "Description": "API com a version mais atualizada do pacote APICore."
+ "ApiSettings": {
+    "Title": "ApiCore Libray",
+    "Description": "Library for APIs projects containing Middlewares and API's documentation through the Swagger framework.",
+    "ApiDeprecated": "This Api version is deprecated.",
+    "BadRequestMessage": "Exists properties with problems. Try update these problems: "
   }
 ```
 
