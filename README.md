@@ -51,8 +51,9 @@ namespace Swagger_Versioning
         {
             services.AddControllers();
 
-            services.AddSwaggerConfiguration(Configuration);
-
+            services.AddApiConfiguration(Configuration);
+            services.AddSwaggerConfiguration();
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
