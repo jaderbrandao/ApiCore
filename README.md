@@ -6,11 +6,11 @@ ApiCore is the most complete library for the API projects. It implements API Ver
 
 In .NET Core:
 ```bash
-dotnet add package APICore --version 2.0.0
+dotnet add package APICore --version 2.1.0
 ```
 If using legacy .NET Framework in Visual Studio
 ```bash
-Install-Package APICore -Version 2.0.0
+Install-Package APICore -Version 2.1.0
 ```
 You can also just use the `Manage NuGet Package` window on your project in Visual Studio.
 
@@ -107,6 +107,16 @@ In your actions, you can set the verb and Routes should be the same in V1;V2...
 
 For Bad requests, the version 2.0.0 consider DataAnnotations, for example [Required] from body. You can customize messages for this in appsettings.json, see the ApiSettings.cs.
 The response ignore null values and use CamelCase.
+
+A new version for Dependency Injection is available, just make a IServiceCollection extension to use this, like example below:
+```csharp
+ service.AddDependencyInjection(typeof(IService));
+```
+
+About the example above, you can put a simple interface to mark your injections for example:
+```csharp
+ public interface IApiService : IService
+```
 
 Please, use github issues for questions or feedback. For confidential requests or specific demands, contact us on [JaderBrandao support](mailto:contato@jaderbrandao.com.br "contato@jaderbrandao.com.br").
 
