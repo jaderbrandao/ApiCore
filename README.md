@@ -105,7 +105,7 @@ In your actions, you can set the verb and Routes should be the same in V1;V2...
  [Route("weatherforecast-list")]
 ```
 
-For Bad requests, the version 2.0.0 consider DataAnnotations, for example [Required] from body. You can customize messages for this in appsettings.json, see the ApiSettings.cs.
+For Bad requests, considering DataAnnotations, for example [Required] from body. You can customize messages for this in appsettings.json, see the ApiSettings.cs.
 The response ignore null values and use CamelCase.
 
 A new version for Dependency Injection is available, just make a IServiceCollection extension to use this, like example below:
