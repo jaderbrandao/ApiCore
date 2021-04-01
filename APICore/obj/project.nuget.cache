@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dEHL4ReSP1ZMQp+/da8374zFPGg2Le/uyeUSw8/oleY61fbvFx3Ercg+P2F2Xin4ksKE5d8eYVG3hcwKXHaLAA==",
+  "dgSpecHash": "MiWWn/h3WA1psms2nBm8zMDN9dJ5fLIpVViat96WL9XSWp5Ithesa5f3bSY0Yhu7pXPhIC8RqUipFEeuKuxTRA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\bibliotecas\\apicore\\APICore\\APICore.csproj",
+  "projectFilePath": "C:\\Source\\ApiCore-Package\\APICore\\APICore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Triscal\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.2.0\\microsoft.aspnetcore.mvc.versioning.4.2.0.nupkg.sha512",
     "C:\\Users\\Triscal\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\4.2.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.4.2.0.nupkg.sha512",

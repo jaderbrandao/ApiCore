@@ -255,11 +255,11 @@
   "project": {
     "version": "2.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\bibliotecas\\apicore\\APICore\\APICore.csproj",
+      "projectUniqueName": "C:\\Source\\ApiCore-Package\\APICore\\APICore.csproj",
       "projectName": "APICore",
-      "projectPath": "C:\\Projetos\\bibliotecas\\apicore\\APICore\\APICore.csproj",
+      "projectPath": "C:\\Source\\ApiCore-Package\\APICore\\APICore.csproj",
       "packagesPath": "C:\\Users\\Triscal\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\bibliotecas\\apicore\\APICore\\obj\\",
+      "outputPath": "C:\\Source\\ApiCore-Package\\APICore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Triscal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -269,7 +269,6 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
