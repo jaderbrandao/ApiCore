@@ -104,6 +104,7 @@ In your actions, you can set the verb and Routes should be the same in V1;V2...
  [HttpGet]
  [Route("weatherforecast-list")]
 ```
+Don't forget to apply bin/APICore.xml after checking this option "XML documentation file:" in your Build settings.
 
 For Bad requests, considering DataAnnotations, for example [Required] from body. You can customize messages for this in appsettings.json, see the ApiSettings.cs.
 The response ignore null values and use CamelCase.
